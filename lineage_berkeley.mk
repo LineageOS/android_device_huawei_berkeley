@@ -22,8 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
 # Inherit from berkeley device
 $(call inherit-product, device/huawei/berkeley/device.mk)
 
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := berkeley
-PRODUCT_NAME := full_berkeley
+PRODUCT_NAME := lineage_berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := berkeley
