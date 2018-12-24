@@ -28,4 +28,5 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := berkeley
 PRODUCT_NAME := lineage_berkeley
 PRODUCT_BRAND := Huawei
+PRODUCT_MANUFACTURER := HUAWEI
 PRODUCT_MODEL := Honor View 10
